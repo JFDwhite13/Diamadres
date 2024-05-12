@@ -1,0 +1,200 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	background-color: rgb(226, 226, 226);
+  }
+  
+.header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 8px;
+	background-color: #333;
+}
+
+.header li{
+	display: inline;
+	padding: 8px;
+}
+
+.header a{
+	text-decoration: none;
+	color: aliceblue;
+	padding: 14px 16px;
+	text-align: center;
+}
+
+.header li:hover{
+	background-color: #111;
+}
+.content h1{
+	text-align: center;
+}
+
+.content .first-content{
+	display: flex;
+	padding: 50px;
+}
+.content .first-content img{
+	width: 440px;
+	margin-right: 50px;
+}
+.content .first-content img:hover{
+	animation-name: box-anim;
+	animation-duration: 2s;
+}
+
+.content .first-content p{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin: 20px;
+	padding: 100px;
+}
+
+.content .first-content p:hover{
+	
+	animation-name: box-anim;
+	animation-duration: 3s;
+}
+
+
+@keyframes box-anim{
+	0%{
+		border:1px solid rgb(122, 122, 122);
+	}100%{
+		border:2px solid rgb(122, 122, 122);
+		box-shadow: 1px 1px 10px 10px rgb(122, 122, 122);
+		
+	}
+}
+
+.cards{
+	display: flex;
+}
+
+.cards .card{
+	margin-left: 40px;
+	margin-right: 40px;
+	padding-top: 20px ;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-top: 40px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 8px;
+	background-color: black;
+}
+.cards .card:hover{
+	animation-name: color;
+	animation-duration:2s ;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color{
+	0%{
+	}100%{
+		background-color: rgb(145, 0, 0);
+		
+	}
+}
+.cards .card i{
+	font-size: 40px;
+	color:white;
+}
+
+.cards .card p{
+	color:white;
+}
+
+.dedications .dedication1{
+	display: flex;
+	padding: 50px;
+}
+
+
+.dedications .dedication1 img{
+	width: 440px;
+	margin-right: 50px;
+}
+.dedications .dedication1 img:hover{
+	animation-name: box-anim;
+	animation-duration: 2s;
+}
+
+.dedications .dedication1 p{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin: 20px;
+	padding: 100px;
+}
+
+.dedications .dedication1 p:hover{
+	
+	animation-name: box-anim;
+	animation-duration: 3s;
+}
+
+.dedications .dedication2{
+	display: flex;
+	padding: 50px;
+}
+
+
+.dedications .dedication2 img{
+	width: 440px;
+	margin-right: 50px;
+}
+.dedications .dedication2 img:hover{
+	animation-name: box-anim;
+	animation-duration: 2s;
+}
+
+.dedications .dedication2 p{
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	margin: 20px;
+	padding: 100px;
+}
+
+.dedications .dedication2 p:hover{
+	
+	animation-name: box-anim;
+	animation-duration: 3s;
+}
+
+.unique{
+	font-size: 70px;
+	text-align: center;
+	animation: 4s infinite anim;
+}
+
+@keyframes anim{
+	0%{
+		color: rgb(000, 000, 000);
+	}10%{
+		color: rgb(253, 0, 0);
+	}20%{
+		color: rgb(255, 174, 0);
+	}30%{
+		color: rgb(102, 255, 0);
+	}40%{
+		color: rgb(0, 252, 126);
+	}50%{
+		color: rgb(0, 195, 255);
+	}60%{
+		color: rgb(0, 89, 255);
+	}70%{
+		color: rgb(17, 0, 255);
+	}80%{
+		color: rgb(98, 0, 255);
+	}90%{
+		color: rgb(255, 0, 221);
+	}100%{
+		color: rgb(245, 0, 0);
+	}
+}
